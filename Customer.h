@@ -5,7 +5,7 @@ include "Location.h"
 include "Feedback.h"
 include "Reservtion.h"
 
-class Customer
+class Customer//
 {
 	private :
 		char customerId[10];

@@ -1,6 +1,6 @@
 //IT21315350
 //Delivery_items.h
-class Delivery_items
+class Delivery_items //
 {
 	private :
 		char deliveryId[10];
