@@ -7,32 +7,32 @@ using namespace std;
 
 Reservation::Reservation()
 {
-    strcpy(resevationID,"");
-    strcpy(reservationDate,"");
-    strcpy(reservationTime,"");
-    strcpy(package_type,"");
+    strcpy_s(reservationID,"");
+    strcpy_s(reservationDate,"");
+    strcpy_s(reservationTime,"");
+    strcpy_s(package_type,"");
 }
 Reservation::Reservation(const char rID[], const char rdate[], const char rtime[], const char packtype[])
 {
-    strcpy(resevationID, rID);
-    strcpy(reservationDate, rdate);
-    strcpy(reservationTime, rtime);
-    strcpy(package_type, packtype);
+    strcpy_s(reservationID, rID);
+    strcpy_s(reservationDate, rdate);
+    strcpy_s(reservationTime, rtime);
+    strcpy_s(package_type, packtype);
 }
 void Reservation::setReservationDetails(const char rID[], const char rdate[], const char rtime[], const char packtype[])
 {
-    strcpy(resevationID, rID);
-    strcpy(reservationDate, rdate);
-    strcpy(reservationTime, rtime);
-    strcpy(package_type, packtype);
+    strcpy_s(reservationID, rID);
+    strcpy_s(reservationDate, rdate);
+    strcpy_s(reservationTime, rtime);
+    strcpy_s(package_type, packtype);
 }
 char Reservation::getReservationID()
 {
-    return reservationID;
+    return char(reservationID);
 }
 void Reservation::printReservationDetails()
 {
-    cout << "Reservation ID:  " << resevationID << endl;
+    cout << "Reservation ID:  " << reservationID << endl;
     cout << "Reservation date:  " << reservationDate << endl;
     cout << "Reservation time:  " << reservationTime << endl;
     cout << "Package type:  " << package_type << endl;

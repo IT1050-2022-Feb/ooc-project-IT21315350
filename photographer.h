@@ -1,4 +1,4 @@
-class photographer
+class photographer   //IT21252372
 {
 	private:
 		

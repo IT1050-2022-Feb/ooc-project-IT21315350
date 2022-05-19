@@ -2,7 +2,7 @@
 
 class Reservation {
 private:
-    char resevationID[10];
+    char reservationID[10];
     char reservationDate[10];
     char reservationTime[10];
     char package_type[20];

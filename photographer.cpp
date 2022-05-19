@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream>    //IT21252372
 #include <cstring>
 #include "photographer.h"
 using namespace std;
