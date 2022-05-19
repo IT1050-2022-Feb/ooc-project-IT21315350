@@ -1,5 +1,5 @@
 //IT21359088
-
+//
 class Location{
 private:
     char locationID[10];

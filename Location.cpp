@@ -1,5 +1,5 @@
 //IT21359088
-
+//
 #include<iostream>
 #include<cstring>
 #include"Location.h"
@@ -28,7 +28,7 @@ void Location::setLocationdetails(const char lID[], const char lname[], const ch
 }
 char Location::getLocationID()
 {
-    return char(locationID);
+    return 'locationID';
 }
 void Location::printLocationDetails()
 {

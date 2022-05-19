@@ -1,5 +1,5 @@
 //IT21359088
-
+//
 #include<iostream>
 #include<cstring>
 #include"Reservation.h"
@@ -28,7 +28,7 @@ void Reservation::setReservationDetails(const char rID[], const char rdate[], co
 }
 char Reservation::getReservationID()
 {
-    return char(reservationID);
+    return 'reservationID';
 }
 void Reservation::printReservationDetails()
 {
