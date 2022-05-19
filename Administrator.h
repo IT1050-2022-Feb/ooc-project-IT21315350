@@ -1,6 +1,6 @@
 //IT21242472
 //Administrator.h
-class Administrator
+class Administrator//
 {
 	private :
 		char adminId[10];

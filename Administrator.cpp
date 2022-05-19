@@ -4,7 +4,7 @@
 #include "Administrator.h"
 using namespace std;
 //.cpp file
-Administrator :: Administrator
+Administrator :: Administrator//
 {
 	
 }

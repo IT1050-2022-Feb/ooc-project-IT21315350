@@ -7,7 +7,7 @@
 using namespace std;
 
 //.cpp
-Payment :: Payment()
+Payment :: Payment()//
 {
 	
 }

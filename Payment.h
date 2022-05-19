@@ -3,7 +3,7 @@
 include "Customer.h"
 include "Administrator.h"
 
-class Payment 
+class Payment //
 {
 	private :
 		char payId[10];
