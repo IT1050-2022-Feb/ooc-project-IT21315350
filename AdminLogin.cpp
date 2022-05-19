@@ -6,7 +6,7 @@
 
 using namespace std;
 
-
+// 
 AdminLogin :: AdminLogin(){
 
     strcpy(AdminID , "");
