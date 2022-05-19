@@ -1,4 +1,4 @@
-class photographer   //IT21252372
+class photographer   //IT21252372 //.h file
 {
 	private:
 		

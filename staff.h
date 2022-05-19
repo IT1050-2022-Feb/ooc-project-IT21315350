@@ -1,4 +1,4 @@
-class staff     //IT21252372
+class staff     //IT21252372  //.h file
 {
 	private:
 		
